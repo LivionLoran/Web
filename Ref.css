@@ -1,3 +1,11 @@
+@media (orientation: landscape)
+{
+    body
+    {
+        background: url(Fon1.jpg) no-repeat;
+    }
+}
+
 article
 {
     justify-content: start;
@@ -94,6 +102,16 @@ news
     border-radius: 10px;
 }
 
+.current
+{
+    background-color: red;
+    text-align: center;
+    align-items: flex-start;
+    padding: 10px;
+    border:  2px solid black;
+    border-radius: 10px;
+}
+
 .ntitle
 {
     background-color: rgba(206,156,68,0.5);
@@ -121,9 +139,8 @@ news
     word-wrap: break-word;
 }
 
-.ref
-{
-    background-color: rgba(255,255,255,0.5);
+.ref {
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     width: 200px;
     margin-left: 40px;

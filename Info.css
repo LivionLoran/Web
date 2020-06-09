@@ -1,3 +1,11 @@
+@media (orientation: landscape)
+{
+    body
+    {
+        background: url(Fon1.jpg) no-repeat;
+    }
+}
+
 article
 {
     justify-content: start;
@@ -84,6 +92,16 @@ nav
     border-radius: 10px;
     display: grid;
     grid-template-rows: 100px repeat(6,50px);
+}
+
+.current
+{
+    background-color: red;
+    text-align: center;
+    align-items: flex-start;
+    padding: 10px;
+    border:  2px solid black;
+    border-radius: 10px;
 }
 
 news
